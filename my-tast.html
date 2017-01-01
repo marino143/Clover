@@ -1,0 +1,92 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
+<link href="bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#box2").click(function(){
+		$(".box_A").fadeIn("slow");
+        //$("#box1_1").fadeIn();
+        //$("#box1_2").fadeIn("slow");
+        $(".line").fadeIn(3000);
+		$(".lineB").hide();
+    });
+	 $("#box3").click(function(){
+		$(".box_A").fadeIn("slow");
+		$(".line").hide();
+        //$("#box1_1").fadeIn();
+        //$("#box1_2").fadeIn("slow");
+        $(".lineB").fadeIn(3000);
+    });
+});
+</script>
+</head>
+<body style="background-color:rgb(77,196,202);">
+<div class="box_A app">
+<div class="box_A" style="position: absolute;margin-top:8px;display:none;"><span id="n_1">1<span><span id="n_2">2<span><span id="n_3">3<span><span id="n_4">4<span></div>
+<div class="box_A" id="box1" style="display:none;"><span id="A">A <span><img src="test.jpg" class="img-circle"></div>
+<div class="box_A" id="box1_1" style="display:none;"><img src="test.jpg" class="img-circle"></div>
+<div class="box_A" id="box1_2" style="display:none;"><img src="test.jpg" class="img-circle"></div>
+
+
+
+
+<div class="box_A" id="box2"><span id="B">B <span><img src="test.jpg" style="border:2px solid violet;" class="img-circle"></div>
+<div class="box_A" id="box2_1" style="display:none;"><img src="test.jpg" class="img-circle"></div>
+
+<div class="box_A" id="box3"><span id="C">C <span><img src="test.jpg" style="border:2px solid violet;" class="img-circle"></div>
+<div class="box_A" id="box3_1" style="display:none;"><img src="test.jpg" class="img-circle"></div>
+<div class="box_A" id="box3_2" style="display:none;"><img src="test.jpg" class="img-circle"></div>
+<div class="box_A" id="box3_3" style="display:none;"><img src="test.jpg" class="img-circle"></div>
+
+<div class="line" id="line1" style="display:none;"></div>
+<div class="line" id="line2" style="display:none;"></div>
+<div class="line" id="lineB-2" style="display:none;"></div>
+<div class="line" id="lineC-2" style="display:none;"></div>
+<div class="line" id="lineC-3" style="display:none;"></div>
+<div class="line" id="lineC-4" style="display:none;"></div>
+
+<div class="lineB" id="line1" style="display:none;"></div>
+<div class="lineB" id="line2" style="display:none;"></div>
+<div class="lineB" id="lineB-2" style="display:none;"></div>
+<div class="lineB" id="lineB-3" style="display:none;"></div>
+<div class="lineB" id="lineAB-2"style="display:none;"></div>
+<div class="lineB" id="lineCB-2" style="display:none;"></div>
+<div class="lineB" id="lineB2C3" style="display:none;"></div>
+</div>
+<!--<div class=" box_2">
+
+<p style="Color:white;margin-top:-20px; font-family:Arial;font-weight:bold;font-size:24px;">Primjeri:</p>
+<div class="box" style="position: absolute;margin-top:0px;"><span id="n_1">1<span><span id="n_2">2<span><span id="n_3">3<span><span id="n_4">4<span></div>
+<div class="box" id="box1"><span id="A">A <span><img src="test.jpg" class="img-circle"></div>
+<div class="" id="" style="margin-top:521px;margin-left:200px"><img src="test.jpg" class="img-circle"></div>
+<div class="" id=""><img src="test.jpg" class="img-circle"></div>
+
+
+
+
+<div class="box" id="box2"><span id="B">B <span><img src="test.jpg" class="img-circle"></div>
+<div class="box" id="box2_1"><img src="test.jpg" class="img-circle"></div>
+
+<div class="box" id="box3"><span id="C">C <span><img src="test.jpg" style="border:2px solid violet;" class="img-circle"></div>
+<div class="box" id="box3_1"><img src="test.jpg" class="img-circle"></div>
+<div class="box" id="box3_2"><img src="test.jpg" class="img-circle"></div>
+<div class="box" id="box3_3"><img src="test.jpg" class="img-circle"></div>
+
+<div class="lineB" id="line1"></div>
+<div class="lineB" id="line2"></div>
+<div class="lineB" id="lineB-2"></div>
+<div class="lineB" id="lineB-3"></div>
+<div class="lineB" id="lineAB-2"></div>
+<div class="lineB" id="lineCB-2"></div>
+</div>
+-->
+
+<!--<div class="line" id="lineC-2"></div>
+<div class="line" id="lineC-3"></div>
+<div class="line" id="lineC-4"></div>-->
+
+</body>
+</html>

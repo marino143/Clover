@@ -1,0 +1,1 @@
+yust download all the files, put in one folder and run my-tast.html with google chrome or similar
